@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="account-consumer" />
+        <module name="account-provider" />
+        <module name="lib-api" />
+        <module name="lib-gateway" />
+        <module name="nacos-config" />
+        <module name="nacos-order" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="collect-account" target="1.8" />
+      <module name="lib-nacos-config" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

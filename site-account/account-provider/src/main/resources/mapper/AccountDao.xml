@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vily.collect.dao.AccountDao">
+  <resultMap id="BaseResultMap" type="com.vily.collect.bean.Account">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, `name`, phone
+  </sql>
+
+  <select id="getAccountById" resultType="com.vily.collect.bean.Account">
+
+     select * from account where id = #{id}
+
+  </select>
+
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.vily.collect.bean.Account" useGeneratedKeys="true">
+    insert into account (`name`, phone)
+    values (#{name,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR})
+  </insert>
+
+</mapper>

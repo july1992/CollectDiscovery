@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib-nacos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib-nacos-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib-nacos/nacos-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib-nacos/nacos-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/site-account" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/site-account/account-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/site-account/account-provider" charset="UTF-8" />
+  </component>
+</project>
